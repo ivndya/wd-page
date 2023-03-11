@@ -1,0 +1,124 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.container {
+  width: 1150px;
+  margin: 0 auto;
+}
+
+/* Стили для текста */
+:root {
+  --blue-color: #34547a;
+  --black-color: #000;
+  --gray-color: #727272;
+  --background-color: #eeeff1;
+  --white-color: #fff;
+}
+.text-p {
+  font-style: normal;
+  font-size: 16px;
+  color: #727272;
+}
+
+/* first-screen */
+.header {
+  background-color: var(--background-color);
+  min-height: 690px;
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-logo {
+  font-family: "Revalia", cursive;
+  color: var(--blue-color);
+  font-weight: 400;
+  font-size: 48px;
+  padding: 52px 20px;
+}
+.header__menu {
+  display: inline-flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-right: 30px;
+}
+.header__menu li a {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  color: var(--black-color);
+  text-decoration: none;
+}
+.header__menu li a:hover {
+  color: var(--blue-color);
+}
+.header__menu li {
+  margin: 0 42px 0 0;
+}
+.header__menu li:last-child {
+  margin: 0;
+}
+.header__flex {
+  display: flex;
+}
+.header__flex-left {
+  padding: 107px 0 0 102px;
+}
+.header__flex-right {
+  padding: 76px 0 0 130px;
+}
+.h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 79px;
+  color: var(--black-color);
+  margin: 0 0 32px 0;
+}
+.header__text {
+  line-height: 26px;
+  margin-bottom: 53px;
+}
+.header__btn {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: var(--white-color);
+  border: none;
+  background-color: var(--blue-color);
+  padding-top: 4px;
+  padding-left: 9px;
+  margin-bottom: 146px;
+  text-transform: uppercase;
+  width: 225px;
+  height: 65px;
+}
+.header__btn:hover {
+  cursor: pointer;
+}

@@ -19,7 +19,7 @@ ul {
 }
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
 .container {
@@ -39,6 +39,15 @@ body {
   font-style: normal;
   font-size: 16px;
   color: #727272;
+  line-height: 26px;
+}
+.text-h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: var(--black-color);
 }
 
 /* first-screen */
@@ -52,7 +61,7 @@ body {
   align-items: center;
 }
 .main-logo {
-  font-family: "Revalia", cursive;
+  font-family: 'Revalia', cursive;
   color: var(--blue-color);
   font-weight: 400;
   font-size: 48px;
@@ -100,7 +109,6 @@ body {
   margin: 0 0 32px 0;
 }
 .header__text {
-  line-height: 26px;
   margin-bottom: 53px;
 }
 .header__btn {
@@ -121,4 +129,20 @@ body {
 }
 .header__btn:hover {
   cursor: pointer;
+}
+
+/* about me */
+.about-me {
+  align-items: center;
+}
+.about-me__title {
+  padding-top: 119px;
+  margin-bottom: 40px;
+}
+.about-me__text {
+  width: 540px;
+  height: 67px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  text-align: center;
 }
